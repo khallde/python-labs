@@ -22,5 +22,7 @@ if userCountry == "CANADA":
         cartTotal += harmonizedSalesTax * cartTotal
     else:
         cartTotal += (provincialSalesTax * cartTotal) + (generalSalesTax * cartTotal)
+else:
+    print("We're sorry, but this product isn't available in your country.")
 
 print("Your total is ${0:.2f}.".format(cartTotal))
