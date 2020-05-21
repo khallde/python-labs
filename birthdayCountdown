@@ -1,0 +1,13 @@
+import datetime
+
+# Taking user input and converting it into a datetime
+birthday = input("Enter your birthday in mm/dd/yyyy format: ")
+birthday = datetime.datetime.strptime(birthday, "%m/%d/%Y")
+
+# Assigning today's date to a variable
+todaysDate = datetime.datetime.today()
+
+# Calculating the difference between today and the user's given birthday
+timeLeft = todaysDate - birthday
+
+print(f"You have {timeLeft} until your birthday!")
