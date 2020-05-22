@@ -1,5 +1,5 @@
-# Imports the system and name attributes from os
-# to clear the screen before our final output
+# Imports the system and name attributes from the os module
+# to clear the screen before our final output prints
 from os import system, name
 
 nameList = []
