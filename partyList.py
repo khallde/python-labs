@@ -20,9 +20,9 @@ nameList.sort()
 # Checks the operating system's name to determine
 # which command is pushed to the system
 if name == "nt":
-    run = system("cls")
+    system("cls")
 else:
-    run = system("clear")
+    system("clear")
 
 print("The names entered, in order, were: ")
 
